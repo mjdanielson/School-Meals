@@ -1,0 +1,78 @@
+
+body {
+    background: #404040;
+    margin: 0;
+    padding: 0;
+    
+  }
+
+
+  #map {
+    border-left: 1px solid #fff;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+  }
+
+  .marker {
+    background-image: url('Food.png');
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+
+ .mapboxgl-popup {
+      padding-bottom: 50px;
+    }
+
+.mapboxgl-popup-close-button {
+     display:none;
+    }
+
+.mapboxgl-popup-content {
+     font:400 15px/22px 'Source Sans Pro', 'Helvetica Neue', Sans-serif;
+     padding:0;
+     width:200px;
+    }
+
+.mapboxgl-popup-content-wrapper {
+     padding:1%;
+    }
+
+.mapboxgl-popup-content h3 {
+    background:#91c949;
+    text-align: center;
+    color:#fff;
+    margin:0;
+    display:block;
+    padding:15px;
+    font-weight:700;
+    margin-top:-5px;
+ }
+
+ .mapboxgl-popup-content h4 {
+     margin:0;
+     display:block;
+     padding: 10px 3px 10px 10px;
+     font-weight:400;
+    }
+
+.mapboxgl-popup-content div {
+     padding:10px;
+    }
+
+.mapboxgl-container .leaflet-marker-icon {
+    cursor:pointer;
+ }
+
+.mapboxgl-popup-anchor-top > .mapboxgl-popup-content {
+    margin-top: 15px;
+ }
+
+.mapboxgl-popup-anchor-top > .mapboxgl-popup-tip {
+    border-bottom-color: #91c949;
+ }
